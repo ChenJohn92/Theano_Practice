@@ -1,8 +1,9 @@
 import theano
 import numpy as np
 import theano.tensor as T
+import os
 
-from .LoadFile import load_mnistdata
+from GetStarted.LoadFile import load_mnistdata
 
 
 def shared_dataset(data_xy):
@@ -20,5 +21,6 @@ def test_shareddata():
 
 
 if __name__ == '__main__':
+    print(os.path.abspath("."))
     test_shareddata()
 
