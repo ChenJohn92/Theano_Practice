@@ -21,6 +21,6 @@ def test_shareddata():
 
 
 if __name__ == '__main__':
-    print(os.path.abspath("."))
+    # print(os.path.abspath("."))
     test_shareddata()
 
